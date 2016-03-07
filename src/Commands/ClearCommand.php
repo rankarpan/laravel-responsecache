@@ -8,6 +8,7 @@ use Illuminate\Contracts\Config\Repository;
 
 class ClearCommand extends Command
 {
+    protected $name = 'laravel-responsecache';
     /**
      * The console command name.
      *
